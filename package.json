@@ -1,0 +1,16 @@
+{
+    "name": "nodejs-docker-demo",
+    "version": "1.0.0",
+    "description": "nodejs image demo",
+    "author": "Hayrettin Basaraner <hbasaraner@gmail.com>",
+    "license": "MIT",
+    "main": "app.js",
+    "keywords": [
+        "nodejs",
+        "bootstrap",
+        "express"
+    ],
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

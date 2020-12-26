@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  node-docker-demo:
+    image: hayrettin/node-docker-demo
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: on-failure
+    ports:
+      - 80:8080

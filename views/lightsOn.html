@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node + Docker Demo</title>
+    <style>
+        body {
+            background-color: black;
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1;
+                background-color: white; 
+            } 
+        } 
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            transition: 1s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered">
+        <h1><a href="/" style="text-decoration: none; color: black;">Light opened! 🔆</a></h1>
+    </div>
+</body>
+</html>
